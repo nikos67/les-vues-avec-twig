@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Goodbye World
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row d-flex">
+            {% for product in products %}
+                <div class="card col-4">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product }}</h5>
+                        <p class="card-text">bye</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

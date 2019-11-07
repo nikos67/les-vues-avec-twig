@@ -1,0 +1,12 @@
+{
+    "name": "nicolas/php-les-vues-avec-twig",
+    "authors": [
+        {
+            "name": "Nicolas",
+            "email": "nbrunstein67@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.12"
+    }
+}
